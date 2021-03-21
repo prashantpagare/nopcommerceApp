@@ -62,11 +62,8 @@ class Test_003_AddCustomers:
             self.logger.error("************* Add customer test Failed **********")
             assert False == False
 
-            self.driver.close()
-            self.logger.info("************* Ending AddCustomers test **********")
-
-
-
+        self.driver.close()
+        self.logger.info("************* Ending AddCustomers test **********")
 
 
 
